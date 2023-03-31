@@ -1,5 +1,6 @@
 package vpwelltok.accounts.service.client;
 
+import org.springframework.web.bind.annotation.RequestHeader;
 import vpwelltok.accounts.model.Cards;
 import vpwelltok.accounts.model.Customer;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -13,5 +14,5 @@ import java.util.List;
 public interface CardsFeignClient {
 
 	@RequestMapping(method = RequestMethod.POST, value = "myCards", consumes = "application/json")
-	List<Cards> getCardDetails(@RequestBody Customer customer);
+	List<Cards> getCardDetails(@RequestHeader("vpwelltok-correlation-id") String correlationid, @RequestBody Customer customer);
 }
