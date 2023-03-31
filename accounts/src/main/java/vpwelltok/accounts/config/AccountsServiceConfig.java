@@ -1,22 +1,17 @@
 /**
  * 
  */
-package com.eazybytes.accounts.config;
-
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+package vpwelltok.accounts.config;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
-/**
- * @author Eazy Bytes
- *
- */
+import java.util.List;
+import java.util.Map;
+
 @Configuration
 @ConfigurationProperties(prefix = "accounts")
 @Getter @Setter @ToString

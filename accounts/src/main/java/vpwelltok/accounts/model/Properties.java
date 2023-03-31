@@ -1,10 +1,10 @@
-package com.eazybytes.accounts.model;
-
-import java.util.List;
-import java.util.Map;
+package vpwelltok.accounts.model;
 
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.List;
+import java.util.Map;
 
 @Getter
 @Setter
