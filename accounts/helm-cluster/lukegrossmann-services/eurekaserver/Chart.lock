@@ -1,0 +1,6 @@
+dependencies:
+- name: lukegrossmann-common
+  repository: file://../../lukegrossmann-common
+  version: 0.1.0
+digest: sha256:a0f256822473889bb4efb219646b98f41e7cf77982cba9700957611e4f4a42b3
+generated: "2023-04-02T21:54:06.632905-07:00"

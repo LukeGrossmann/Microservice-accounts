@@ -1,0 +1,27 @@
+dependencies:
+- name: lukegrossmann-common
+  repository: file://../../lukegrossmann-common
+  version: 0.1.0
+- name: zipkin
+  repository: file://../../lukegrossmann-services/zipkin
+  version: 0.1.0
+- name: configserver
+  repository: file://../../lukegrossmann-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../lukegrossmann-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../lukegrossmann-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../lukegrossmann-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../lukegrossmann-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../lukegrossmann-services/gatewayserver
+  version: 0.1.0
+digest: sha256:38fa73dadbfe02187d24284ad3ca8cd69abecbfc7ecf1b9f748d12d7784758af
+generated: "2023-04-02T21:54:26.489928-07:00"
