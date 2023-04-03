@@ -7,7 +7,7 @@ deploymentLabel: cards
 replicaCount: 1
 
 image:
-  repository: eazybytes/cards
+  repository: lukegrossmann/cards
   tag: latest
 
 containerPort: 9000

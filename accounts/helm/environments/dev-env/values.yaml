@@ -1,5 +1,5 @@
 global:
-  configMapName: eazybankdev-configmap
+  configMapName: lukegrossmanndev-configmap
   zipkinBaseURL: http://zipkin:9411/api/v2/spans
   activeProfile: dev
   configServerURL: configserver:http://configserver:8071/

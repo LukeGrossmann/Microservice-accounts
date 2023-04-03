@@ -7,7 +7,7 @@ deploymentLabel: accounts
 replicaCount: 1
 
 image:
-  repository: eazybytes/accounts
+  repository: lukegrossmann/accounts
   tag: latest
 
 containerPort: 8080

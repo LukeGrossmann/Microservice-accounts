@@ -7,7 +7,7 @@ deploymentLabel: loans
 replicaCount: 1
 
 image:
-  repository: eazybytes/loans
+  repository: lukegrossmann/loans
   tag: latest
 
 containerPort: 8090

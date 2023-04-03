@@ -7,7 +7,7 @@ deploymentLabel: gatewayserver
 replicaCount: 1
 
 image:
-  repository: eazybytes/gatewayserver
+  repository: lukegrossmann/gatewayserver
   tag: latest
 
 containerPort: 8072

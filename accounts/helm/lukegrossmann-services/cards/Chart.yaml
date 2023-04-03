@@ -24,6 +24,6 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 dependencies:
-  - name: eazybank-common
+  - name: lukegrossmann-common
     version: 0.1.0
-    repository: file://../../eazybank-common
+    repository: file://../../lukegrossmann-common

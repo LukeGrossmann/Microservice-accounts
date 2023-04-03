@@ -24,34 +24,34 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 dependencies:
-  - name: eazybank-common
+  - name: lukegrossmann-common
     version: 0.1.0
-    repository: file://../../eazybank-common
+    repository: file://../../lukegrossmann-common
 
   - name: zipkin
     version: 0.1.0
-    repository: file://../../eazybank-services/zipkin
+    repository: file://../../lukegrossmann-services/zipkin
   
   - name: configserver
     version: 0.1.0
-    repository: file://../../eazybank-services/configserver
+    repository: file://../../lukegrossmann-services/configserver
     
   - name: eurekaserver
     version: 0.1.0
-    repository: file://../../eazybank-services/eurekaserver
+    repository: file://../../lukegrossmann-services/eurekaserver
   
   - name: accounts
     version: 0.1.0
-    repository: file://../../eazybank-services/accounts
+    repository: file://../../lukegrossmann-services/accounts
     
   - name: cards
     version: 0.1.0
-    repository: file://../../eazybank-services/cards
+    repository: file://../../lukegrossmann-services/cards
     
   - name: loans
     version: 0.1.0
-    repository: file://../../eazybank-services/loans
+    repository: file://../../lukegrossmann-services/loans
 
   - name: gatewayserver
     version: 0.1.0
-    repository: file://../../eazybank-services/gatewayserver    
+    repository: file://../../lukegrossmann-services/gatewayserver

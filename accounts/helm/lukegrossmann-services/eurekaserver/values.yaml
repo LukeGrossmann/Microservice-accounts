@@ -6,7 +6,7 @@ deploymentLabel: eurekaserver
 replicaCount: 1
 
 image:
-  repository: eazybytes/eurekaserver
+  repository: lukegrossmann/eurekaserver
   tag: latest
 
 containerPort: 8070

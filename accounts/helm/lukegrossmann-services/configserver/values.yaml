@@ -6,7 +6,7 @@ deploymentLabel: configserver
 replicaCount: 1
 
 image:
-  repository: eazybytes/configserver
+  repository: lukegrossmann/configserver
   tag: latest
 
 containerPort: 8071
