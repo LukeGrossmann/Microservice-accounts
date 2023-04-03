@@ -16,19 +16,19 @@ spec:
     spec:
       containers:
       - name: configserver
-        image: eazybytes/configserver:latest
+        image: lukegrossmann/configserver:latest
         ports:
         - containerPort: 8071
         env:
         - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
           valueFrom: 
             configMapKeyRef:
-              name: eazybank-configmap
+              name: lukegrossmann-configmap
               key: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
         - name: SPRING_PROFILES_ACTIVE
           valueFrom: 
             configMapKeyRef:
-              name: eazybank-configmap
+              name: lukegrossmann-configmap
               key: SPRING_PROFILES_ACTIVE
 ---
 apiVersion: v1

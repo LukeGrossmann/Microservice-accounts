@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: eazybank-configmap
+  name: lukegrossmann-configmap
 data:
   # SPRING_ZIPKIN_BASEURL: http://zipkin-service:9411/
   MANAGEMENT_ZIPKIN_TRACING_ENDPOINT: http://zipkin-service:9411/api/v2/spans

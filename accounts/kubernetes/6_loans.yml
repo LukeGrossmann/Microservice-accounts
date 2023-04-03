@@ -16,29 +16,29 @@ spec:
     spec:
       containers:
       - name: loans
-        image: eazybytes/loans:latest
+        image: lukegrossmann/loans:latest
         ports:
         - containerPort: 8090
         env:
         - name: SPRING_PROFILES_ACTIVE
           valueFrom: 
             configMapKeyRef:
-              name: eazybank-configmap
+              name: lukegrossmann-configmap
               key: SPRING_PROFILES_ACTIVE
         - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
           valueFrom: 
             configMapKeyRef:
-              name: eazybank-configmap
+              name: lukegrossmann-configmap
               key: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
         - name: SPRING_CONFIG_IMPORT
           valueFrom: 
             configMapKeyRef:
-              name: eazybank-configmap
+              name: lukegrossmann-configmap
               key: SPRING_CONFIG_IMPORT
         - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
           valueFrom: 
             configMapKeyRef:
-              name: eazybank-configmap
+              name: lukegrossmann-configmap
               key: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
 ---
 apiVersion: v1
